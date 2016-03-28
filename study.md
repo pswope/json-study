@@ -37,30 +37,66 @@ As it makes sense to you please write the following in JSON format:
 - A Love of the Red Sox, Patriots and Bruins
 - Has lived in two places recently: 123 Fake street, and 2 Muchinfo Road
 
-```json
-<!-- your answer here -->
-```
+{"Jason":  {
+  "title": "Jasons Life",
+   "Jasons Objects" {
+    "pets": "Mr. Kitty",
+    "roommates":["Dave", "Miller"],
+    "love": "Jason has a love of the Red Sox, Patriots, and the Bruins.",
+    "previous address" : [
+      "address 1": "123 Fake Street",
+      "address 2": "2 Muchinfo Road",
+      ]
+      }
+    }
+  }
+
+
 
 ...I forgot, my roomate Dave has two goldfish, one named Bob (he's red) and the
 other named Mr.MagicNibbles (yellow) and bites a bit. Please copy the JSON you
 already wrote and include the information about Dave's fish.
 
-```json
-<!-- your answer here -->
-```
+{"Jason":  {
+  "title": "Jasons Life",
+   "Jasons Objects" {
+    "pets": "Mr. Kitty",
+    "roommates":[
+      {"name": "Dave",
+       "pets"  : [
+                  {"type": "goldfish",
+                  "name": "Bob",
+                  "color": "red",
+                  }
+                  {type": "goldfish",
+                  "name": "Mr.MagicNibbles",
+                  "color": "yellow",
+                  "special moves": "bites a bit"}
+                ]
+                }
+      {"name": "Miller"}
+      ]
+    "love": "Jason has a love of the Red Sox, Patriots, and the Bruins.",
+    "previous address" : [
+      "address 1": "123 Fake Street",
+      "address 2": "2 Muchinfo Road",
+      ]
+      }
+    }
+  }
 
 ## JSON Methods
 
-Using the JSON your wrote above, can you write a method on the JSON?
+JSON cannot have methods, since it is a data exchange format. Since it only
+represents data, it cannot have behavior. It cannnot have behavior because it is
+not an object.
 
-```json
-<!-- your answer here -->
-```
+I bet you can write methods in JavaScript from the data pulled out of JSON.
+
+
 
 ## JSON Comments
 
 Using the JSON your wrote above, can you write a comment in the JSON?
 
-```json
-<!-- your answer here -->
-```
+Comments are not allowed  in json, it will be seen as data,
